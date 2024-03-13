@@ -1,4 +1,4 @@
-# AzureDevOps-Proyect
+# AzureDevOps-ArgoCD-Proyect
 
 First of all we have to create a new proyect
 
