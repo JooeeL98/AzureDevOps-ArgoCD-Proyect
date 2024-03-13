@@ -69,4 +69,7 @@ if u had this error
 
 just restart the agent on CLI
 
-And then, we have to do the same steps for each  
+And then, we have to do the same steps for each services, (vote and worker)
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/36bfded1-4ce0-4e96-acc9-c1293527f538)
+
