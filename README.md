@@ -17,3 +17,13 @@ Lets click on "Import" and paste the URL of the external repository
 Now you can see the Repository that we have imported
 
 ![image](https://github.com/JooeeL98/AzureDevOps-Proyect/assets/145325906/2dfb802e-fc26-4282-b4cd-87bec4a5c6aa)
+
+Once imported , lets go to the Pipelines, and create a New Pipeline
+
+![image](https://github.com/JooeeL98/AzureDevOps-Proyect/assets/145325906/755c67a1-5bc6-4cf3-aa7c-395669bbad02)
+
+Now lets click on "Azure Repos Git" and choose the repository that was created before
+
+![image](https://github.com/JooeeL98/AzureDevOps-Proyect/assets/145325906/dfe9c729-dce2-4bd2-adb4-32d25424267f)
+
+
