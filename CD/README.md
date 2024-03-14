@@ -70,11 +70,29 @@ You can see the argo cd are deploying all manifest on the k8s
 
 Now we have to edit the pipelines yaml(file attached in this repository)
 
+check this:
 
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/b6e6a5ee-1cde-4c9e-b6a1-46413f8fd86a)
 
 
 And dont forget have the script for update k8s(file attached in this repository)
 
+and Save and run your pipeline
 
+Dont forget have a key of your private registry in my case Azure container registry
 
+and create a imagenpullsecret with the following command:
+```
+kubectl create secret docker-registry <secret-name> \
+    --namespace <namespace> \
+    --docker-server=<container-registry-name>.azurecr.io \
+    --docker-username=<service-principal-ID> \
+    --docker-password=<service-principal-password>
+```
+
+Add this too:
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/87631fbd-5010-4760-9298-b08e8441641b)
+
+and now you can 
 
