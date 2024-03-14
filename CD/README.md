@@ -7,6 +7,9 @@ The following step that we have to do is the configuration ArgoCD
 
 you can follow the quickstart and install in this URL doc: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
-1- 
-> kubectl create namespace argocd
-> kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+Commands:
+
+```
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
