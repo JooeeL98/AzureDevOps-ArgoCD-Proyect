@@ -5,7 +5,7 @@ az aks get-credentials --name <aksclustername> --overwrite-existing --resource-g
 
 The following step that we have to do is the configuration ArgoCD
 
-you can follow the quickstart and install in this URL doc: https://argo-cd.readthedocs.io/en/stable/getting_started/
+> you can follow the quickstart and install in this URL doc: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
 Commands:
 
