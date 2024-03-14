@@ -46,4 +46,35 @@ Now for the configuration we need to connect Argocd with Azure Repos
 
   and get the External IP to have all data for access (ExternalIP:Port)
   
-  
+And You can Access and get an interface like this
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/e9d70557-e5d0-493d-a9fe-c69807bcd2d7)
+
+we login with username: admin and password: "pass that you decoded above steps"
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/1f0064e1-6c96-47b4-8de7-45cc109295b9)
+
+Now we have to connect argocd with our Repos, for that we need to create a token and complete the connection with the repo in ArgoCD like that
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/f679e8c8-c610-4278-87c1-b7cf2d26ef10)
+
+The We have to create a new aplication with the following data and click on the "Create" button
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/de1c5a89-816a-4bce-addd-11645904c2c6)
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/3960fca4-8e9d-4075-8023-0d7e54d38240)
+
+You can see the argo cd are deploying all manifest on the k8s
+
+![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/8f87b28e-07d4-4b52-abf9-f32e01613969)
+
+Now we have to edit the pipelines yaml(file attached in this repository)
+
+
+
+
+And dont forget have the script for update k8s(file attached in this repository)
+
+
+
+
