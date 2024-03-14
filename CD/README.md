@@ -94,5 +94,8 @@ Add this too:
 
 ![image](https://github.com/JooeeL98/AzureDevOps-ArgoCD-Proyect/assets/145325906/87631fbd-5010-4760-9298-b08e8441641b)
 
-and now you can 
+and now you can prove editing the code in the repository.
 
+finally, prove your service executing on web
+
+Thanks!
